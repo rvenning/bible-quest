@@ -1,0 +1,9 @@
+{
+  "name": "bible-quest",
+  "version": "1.0.0",
+  "description": "Bible Quest — a family Bible-story trivia game built on gamekit.",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}
