@@ -267,7 +267,9 @@ body {
 
 /* ---------- toasts & fx ---------- */
 .toast {
-  position: absolute; top: 30%; left: 50%; transform: translateX(-50%);
+  /* gk-base pins its toast to the bottom (top:auto, bottom:24px); reset bottom
+     so this one sizes to its content at top:30% instead of stretching between. */
+  position: absolute; top: 30%; bottom: auto; left: 50%; transform: translateX(-50%);
   background: #fff; color: var(--ink); font-weight: 800;
   padding: 10px 22px; border-radius: 16px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.25);
