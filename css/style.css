@@ -151,7 +151,7 @@ body {
   padding: 10px; border-radius: 14px; border: 3px solid #e2d5b0; outline: none;
 }
 .modal-box input:focus { border-color: #3d5af1; }
-.avatar-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.avatar-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; }
 .avatar-choice {
   font-size: 1.7rem; padding: 6px; cursor: pointer;
   background: #fdf4dd; border: 3px solid transparent; border-radius: 12px;
