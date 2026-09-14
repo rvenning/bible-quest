@@ -3,7 +3,7 @@
 // newest deploy; offline players get the last version they loaded. Firestore
 // sync degrades gracefully offline because storage.js falls back to localStorage.
 
-const CACHE = "biblequest-v7";
+const CACHE = "biblequest-v8";
 
 // App shell precached at install so the game works offline from the first visit.
 const SHELL = [
